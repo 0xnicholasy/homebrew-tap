@@ -27,8 +27,9 @@ class Snapclip < Formula
   end
 
   test do
-    assert_path_exists "#{prefix}/SnapClip.app/Contents/MacOS/SnapClip"
-    assert_predicate "#{prefix}/SnapClip.app/Contents/MacOS/SnapClip", :executable?
-    system "codesign", "--verify", "#{prefix}/SnapClip.app"
+    binary = prefix/"SnapClip.app/Contents/MacOS/SnapClip"
+    assert_path_exists binary
+    assert_predicate binary, :executable?
+    system "codesign", "--verify", prefix/"SnapClip.app"
   end
 end
