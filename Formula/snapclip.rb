@@ -1,8 +1,8 @@
 class Snapclip < Formula
   desc "Menu-bar app: screenshots auto-copy to clipboard and auto-clean after 5 minutes"
   homepage "https://github.com/0xnicholasy/snapclip"
-  url "https://github.com/0xnicholasy/snapclip/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "6293e48cab1235a26625a359462a64bf97baec8ae1823baadd6225c815a66f4d"
+  url "https://github.com/0xnicholasy/snapclip/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "d8ba8b13f36102c592d17512fd59efb5a3b962679ef08544658f3ec521807e19"
   license "MIT"
 
   depends_on xcode: ["16.0", :build]
