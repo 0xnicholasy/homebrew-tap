@@ -4,8 +4,8 @@ class Claudeterm < Formula
   # Private repository: cloned over SSH, so your GitHub SSH key must be loaded.
   url "ssh://git@github.com/0xnicholasy/claude-code-terminal.git",
       using:    :git,
-      tag:      "v0.1.3",
-      revision: "f7038656f87920fff186fbcf23ac541fa24d799d"
+      tag:      "v0.1.4",
+      revision: "98df707304a3d9c979baaf37e76b26b7fd17cb39"
   head "ssh://git@github.com/0xnicholasy/claude-code-terminal.git", branch: "main", using: :git
 
   depends_on xcode: ["16.0", :build]
